@@ -20,9 +20,11 @@ macOS 10.16
 This projecty compiles correctly on :  
 -Android (minSdkVersion 16)  
 -iOs (ios, '9.0')  
--Web (Chrome Version 91.0.4472.114 (Official Build) (x86_64))  
--Web (FireFox Version 89.0 (64-bit))  
--MacOs (BigSur 11.4 (20F71))  
+-Web (Chrome Version 91.0.4472.114 (Official Build) (x86_64))    
+-Web (FireFox Version 89.0 (64-bit))    
+-Web (Edge v 91.0.864.67)  
+-MacOs (BigSur 11.4 (20F71))    
+-Windows 10  
 
 ## Models
 
@@ -93,3 +95,6 @@ Connect device (real or emulator) before starting.
 
 Run in terminal:  
 >flutter test integration_test/app_test.dart  
+
+note: some slow Android emulators may fail. Use a higher value for  
+fakeWaitDurationInMilliseconds to make it succeed.  
