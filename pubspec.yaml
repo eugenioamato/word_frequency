@@ -1,0 +1,30 @@
+name: word_frequency
+description: An app to count word frequency on a string
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
+  flutter_bloc: ^7.0.1
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: OtomanopeeOne
+      fonts:
+        - asset: fonts/OtomanopeeOne-Regular.ttf
+  uses-material-design: true
